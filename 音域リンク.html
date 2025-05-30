@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>曲名と最高音</title>
+  <style>
+    /* Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: #ffffffcc;
+      backdrop-filter: blur(8px);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.4em;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 30px;
+      margin-bottom: 12px;
+      color: #34495e;
+    }
+
+    .link-button {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+
+      .link-button {
+        width: 100%;
+        padding: 14px 0;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>曲名と最高音</h1>
+
+    <p>入力フォームはこちら</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvXoo3CDwQyjSwB74hKhU39ayNyzA1EfYeBuXTSDyPRu3pMQ/viewform" target="_blank" class="link-button">入力フォームへ</a>
+
+    <p>一覧はこちら</p>
+    <a href="https://docs.google.com/spreadsheets/d/1SsI2MPycLbLbGOz2kYQ565cvPcLDaWuMxvss4gh-8Ik/edit?resourcekey=&gid=609957343#gid=609957343" target="_blank" class="link-button">一覧を見る</a>
+  </div>
+</body>
+</html>
